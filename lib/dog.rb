@@ -19,7 +19,7 @@ class Dog
     
     def self.print_all
       
-      puts @@all.each{ |dog|  dog.name} 
+      puts @@all.map{ |dog|  dog.name} 
     end 
     
 end 
